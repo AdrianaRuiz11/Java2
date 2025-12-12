@@ -22,6 +22,11 @@ public class Main {
         aritmetica1.sumar();
         aritmetica1.restar();
 
-
+        //Creacion de un segundo objeto de la clase Aritmetica.
+        Aritmetica aritmetica2 = new Aritmetica();
+        aritmetica2.numero1 = 10;
+        aritmetica2.numero2 = 2;
+        aritmetica2.sumar();
+        aritmetica2.restar();
     }
 }
