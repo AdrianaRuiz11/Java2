@@ -14,5 +14,14 @@ public class Main {
         objeto2.nombre="Franco";
         objeto2.apellido = "Anastasio";
         objeto2.mostrarPersona();
+
+        //Prueba de la clase Aritmetica.
+        Aritmetica aritmetica1 = new Aritmetica();
+        aritmetica1.numero1 = 3;
+        aritmetica1.numero2 = 5;
+        aritmetica1.sumar();
+        aritmetica1.restar();
+
+
     }
 }
